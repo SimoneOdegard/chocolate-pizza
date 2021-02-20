@@ -1,0 +1,110 @@
+.fixedContainer {
+    max-width: 900px ;
+    margin: 0 auto;
+}
+
+header {
+    margin-top: 20px;
+    height: 100px;
+    display: block;
+}
+
+.logo {
+    float: left;
+}
+
+h2,h5 {
+    display:inline-block;
+
+}
+.socialMedia {
+    float:right;
+}
+
+.gap {
+    margin-left: 10px;
+}
+
+.lineBorder {
+    background-image: url("images/hr-img.png");
+    background-repeat: repeat-x repeat-y;
+    height: 15px;
+    margin: 0 auto;
+    margin-top: -10px;;
+}
+
+.articleTitle {
+    margin-bottom: 20px;
+}
+h4 {
+    margin-top: -20px;
+    color:rgb(194, 194, 194);
+    font-weight:lighter;
+}
+#print {
+    float: right;
+    overflow: none;
+    margin-top: -40px;
+    color: rgb(194, 194, 194);
+}
+
+.pizza {
+    max-width: 100%;
+}
+
+.noteCard {
+    background-image: url('images/list-bg.png');
+    background-repeat: none;
+    height: 175px;
+    padding: 20px;
+    font-size: 18px;
+    
+}
+
+.column {
+    float: left;
+    width: 50%;
+}
+.rightItems:after {
+    content:"";
+    display: table;
+    clear: both;
+}
+
+li {
+    list-style:square;
+}
+
+.lineBorderFooter {
+    background-image: url("images/hr-img.png");
+    background-repeat: repeat-x repeat-y;
+    height: 15px;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+
+.bio {
+    margin-top: 20px;
+}
+
+.van {
+    float: left;
+}
+
+button {
+    float: right;
+    border: 0;
+    background-color: red;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-top: -40px;
+
+}
+
+#footer {
+margin: 0 auto;
+
+}
